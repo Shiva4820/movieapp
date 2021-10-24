@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import Navbar from './components/Navbar'
 import Banner from './components/Banner'
+import Movies from './components/Movies'
 import './App.css';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
       <Navbar/>
       <Banner/>
+      <Movies/>
      </>   
   );
 }
