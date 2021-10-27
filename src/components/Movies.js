@@ -50,7 +50,7 @@ export default class Movies extends Component {
     }
     handleClick=(value)=>{
         if(value!=this.state.currPage){
-            console.log("i am called")
+           
             this.setState({
                 currPage:value
             },this.changeMovies)
